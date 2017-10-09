@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492F77D71F7BDEED00C42552 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F77D61F7BDEED00C42552 /* MessageViewController.swift */; };
+		4953012F1F7A5F5C0085FB07 /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953012E1F7A5F5C0085FB07 /* ViewControllerTableViewCell.swift */; };
+		495301311F7A835F0085FB07 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495301301F7A835F0085FB07 /* RegisterViewController.swift */; };
+		49A126F81F7D0C2C00044AF7 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A126F61F7D0C2C00044AF7 /* VideoTableViewCell.swift */; };
+		49A126F91F7D0C2C00044AF7 /* VideoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A126F71F7D0C2C00044AF7 /* VideoTableViewCell.xib */; };
 		49F8ED0E1F78F9B100DB648B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8ED0D1F78F9B100DB648B /* AppDelegate.swift */; };
 		49F8ED101F78F9B100DB648B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8ED0F1F78F9B100DB648B /* ViewController.swift */; };
 		49F8ED131F78F9B100DB648B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F8ED111F78F9B100DB648B /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		49F8ED181F78F9B100DB648B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F8ED161F78F9B100DB648B /* LaunchScreen.storyboard */; };
 		49F8ED231F78F9B100DB648B /* ThumbSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8ED221F78F9B100DB648B /* ThumbSplitTests.swift */; };
 		49F8ED2E1F78F9B100DB648B /* ThumbSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8ED2D1F78F9B100DB648B /* ThumbSplitUITests.swift */; };
+		49F8ED401F79313200DB648B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F8ED3F1F79313200DB648B /* LoginView.swift */; };
+		B8C48863FB39C6FFB45AFEF4 /* Pods_ThumbSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9AE2DD0C2EB444FDE93F73 /* Pods_ThumbSplit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38AD6631FB88FA89CFD18EFC /* Pods-ThumbSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbSplit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThumbSplit/Pods-ThumbSplit.release.xcconfig"; sourceTree = "<group>"; };
+		492F77D61F7BDEED00C42552 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		4953012E1F7A5F5C0085FB07 /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		495301301F7A835F0085FB07 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		49A126F61F7D0C2C00044AF7 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		49A126F71F7D0C2C00044AF7 /* VideoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTableViewCell.xib; sourceTree = "<group>"; };
 		49F8ED0A1F78F9B100DB648B /* ThumbSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThumbSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F8ED0D1F78F9B100DB648B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F8ED0F1F78F9B100DB648B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		49F8ED291F78F9B100DB648B /* ThumbSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThumbSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F8ED2D1F78F9B100DB648B /* ThumbSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbSplitUITests.swift; sourceTree = "<group>"; };
 		49F8ED2F1F78F9B100DB648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F8ED3F1F79313200DB648B /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4AAFC85CDA6FA8CF2A3E2409 /* Pods-ThumbSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThumbSplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThumbSplit/Pods-ThumbSplit.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9AE2DD0C2EB444FDE93F73 /* Pods_ThumbSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThumbSplit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C48863FB39C6FFB45AFEF4 /* Pods_ThumbSplit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18540C34BBDCCC94FE1D381D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AE2DD0C2EB444FDE93F73 /* Pods_ThumbSplit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2181BFAAB20457798EF3201B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AAFC85CDA6FA8CF2A3E2409 /* Pods-ThumbSplit.debug.xcconfig */,
+				38AD6631FB88FA89CFD18EFC /* Pods-ThumbSplit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49F8ED011F78F9B100DB648B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				49F8ED211F78F9B100DB648B /* ThumbSplitTests */,
 				49F8ED2C1F78F9B100DB648B /* ThumbSplitUITests */,
 				49F8ED0B1F78F9B100DB648B /* Products */,
+				2181BFAAB20457798EF3201B /* Pods */,
+				18540C34BBDCCC94FE1D381D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +133,18 @@
 		49F8ED0C1F78F9B100DB648B /* ThumbSplit */ = {
 			isa = PBXGroup;
 			children = (
+				49F8ED3C1F792C4500DB648B /* IBDesignable */,
 				49F8ED0D1F78F9B100DB648B /* AppDelegate.swift */,
+				4953012E1F7A5F5C0085FB07 /* ViewControllerTableViewCell.swift */,
+				492F77D61F7BDEED00C42552 /* MessageViewController.swift */,
 				49F8ED0F1F78F9B100DB648B /* ViewController.swift */,
 				49F8ED111F78F9B100DB648B /* Main.storyboard */,
+				495301301F7A835F0085FB07 /* RegisterViewController.swift */,
 				49F8ED141F78F9B100DB648B /* Assets.xcassets */,
 				49F8ED161F78F9B100DB648B /* LaunchScreen.storyboard */,
 				49F8ED191F78F9B100DB648B /* Info.plist */,
+				49A126F61F7D0C2C00044AF7 /* VideoTableViewCell.swift */,
+				49A126F71F7D0C2C00044AF7 /* VideoTableViewCell.xib */,
 			);
 			path = ThumbSplit;
 			sourceTree = "<group>";
@@ -125,6 +167,14 @@
 			path = ThumbSplitUITests;
 			sourceTree = "<group>";
 		};
+		49F8ED3C1F792C4500DB648B /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				49F8ED3F1F79313200DB648B /* LoginView.swift */,
+			);
+			name = IBDesignable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49F8ED321F78F9B100DB648B /* Build configuration list for PBXNativeTarget "ThumbSplit" */;
 			buildPhases = (
+				08F1D05E866682F7820D6592 /* [CP] Check Pods Manifest.lock */,
 				49F8ED061F78F9B100DB648B /* Sources */,
 				49F8ED071F78F9B100DB648B /* Frameworks */,
 				49F8ED081F78F9B100DB648B /* Resources */,
+				D5785B5E8AB9B62FB1F5BAF7 /* [CP] Embed Pods Frameworks */,
+				56044ED29C056DFE0CEC0847 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49F8ED181F78F9B100DB648B /* LaunchScreen.storyboard in Resources */,
+				49A126F91F7D0C2C00044AF7 /* VideoTableViewCell.xib in Resources */,
 				49F8ED151F78F9B100DB648B /* Assets.xcassets in Resources */,
 				49F8ED131F78F9B100DB648B /* Main.storyboard in Resources */,
 			);
@@ -254,12 +308,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08F1D05E866682F7820D6592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThumbSplit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56044ED29C056DFE0CEC0847 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThumbSplit/Pods-ThumbSplit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5785B5E8AB9B62FB1F5BAF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThumbSplit/Pods-ThumbSplit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Unbox/Unbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Unbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThumbSplit/Pods-ThumbSplit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49F8ED061F78F9B100DB648B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F8ED401F79313200DB648B /* LoginView.swift in Sources */,
+				495301311F7A835F0085FB07 /* RegisterViewController.swift in Sources */,
+				49A126F81F7D0C2C00044AF7 /* VideoTableViewCell.swift in Sources */,
 				49F8ED101F78F9B100DB648B /* ViewController.swift in Sources */,
+				4953012F1F7A5F5C0085FB07 /* ViewControllerTableViewCell.swift in Sources */,
+				492F77D71F7BDEED00C42552 /* MessageViewController.swift in Sources */,
 				49F8ED0E1F78F9B100DB648B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +527,7 @@
 		};
 		49F8ED331F78F9B100DB648B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAFC85CDA6FA8CF2A3E2409 /* Pods-ThumbSplit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ThumbSplit/Info.plist;
@@ -422,6 +540,7 @@
 		};
 		49F8ED341F78F9B100DB648B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38AD6631FB88FA89CFD18EFC /* Pods-ThumbSplit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ThumbSplit/Info.plist;
@@ -505,6 +624,7 @@
 				49F8ED341F78F9B100DB648B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F8ED351F78F9B100DB648B /* Build configuration list for PBXNativeTarget "ThumbSplitTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +633,7 @@
 				49F8ED371F78F9B100DB648B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49F8ED381F78F9B100DB648B /* Build configuration list for PBXNativeTarget "ThumbSplitUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +642,7 @@
 				49F8ED3A1F78F9B100DB648B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
